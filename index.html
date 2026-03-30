@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <button id="theme-toggle" aria-label="Alternar tema" class="theme-toggle">
+        <span class="theme-icon">🌙</span>
+      </button>
+      <h1>Quem está assistindo?</h1>
+      <p>Escolha um perfil para começar a assistir.</p>
+    </header>
+
+    <section aria-labelledby="profiles-title" class="profiles">
+      <h2 id="profiles-title" class="sr-only">Perfis</h2>
+      <ol>
+        <li>
+          <a href="catalogo/catalogo.html" class="profile" aria-label="Selecionar Perfil 1" data-profile-name="Rodrigo">
+            <figure>
+              <img src="assets/61Vva0gAFIL._AC_UF894,1000_QL80_.jpg" alt="Avatar do Perfil 1" loading="lazy">
+              <figcaption>Rodrigo</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="catalogo/catalogo.html" class="profile" aria-label="Selecionar Perfil 2" data-profile-name="Batman">
+            <figure>
+              <img src="assets/IMG-20200615-WA0078.jpg" alt="Avatar do Perfil 2" loading="lazy">
+              <figcaption>Batman</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="catalogo/catalogo.html" class="profile" aria-label="Selecionar Perfil 3" data-profile-name="Jujuba">
+            <figure>
+              <img src="assets/Jujuba.jpg" alt="Avatar do Perfil 3" loading="lazy">
+              <figcaption>Jujuba</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="catalogo/catalogo.html" class="profile" aria-label="Selecionar Perfil 4" data-profile-name="Shrek">
+            <figure>
+              <img src="assets/shrek.webp" alt="Avatar do Perfil 4" loading="lazy">
+              <figcaption>Shrek</figcaption>
+            </figure>
+          </a>
+        </li>
+      </ol>
+    </section>
+  </main>
+  <script src="js/index.js"></script>
+</body>
+</html>
