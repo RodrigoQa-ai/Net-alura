@@ -7,7 +7,7 @@ Este projeto foi desenvolvido durante a **Imersão Front-end da Alura**, utiliza
 A proposta foi criar uma interface inspirada na Netflix, com catálogo de conteúdos, navegação entre páginas e organização visual moderna.
 
 🔗 **Acesse o projeto online:**
-https://rodrigoqa-ai.github.io/Net-alura/catalogo/catalogo.html
+https://rodrigoqa-ai.github.io/Net-alura/
 
 ---
 
